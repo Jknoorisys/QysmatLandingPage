@@ -491,7 +491,7 @@ h6,
 .footer .footer-menu a {
     margin-right: 15px;
     padding-right: 15px;
-    border-right: 1px solid rgba(255, 255, 255, .1);
+    border-right: 1px solid rgb(194 189 189);
 }
 
 .footer .footer-menu a:last-child {

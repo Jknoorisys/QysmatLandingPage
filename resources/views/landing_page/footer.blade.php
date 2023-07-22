@@ -30,7 +30,7 @@
                 </div>
 
                 <div class="col-md-6 text-center text-md-end text-white">
-                    <div class="footer-menu" class="text-white">
+                    <div class="footer-menu">
                         <a href="{{ route('faqs') }}" class="text-white">FAQs</a>
                         <a href="{{ route('terms-conditions') }}" class="text-white">Terms & Conditions</a>
                         <a href="{{ route('privacy-policy') }}" class="text-white">Privacy Policy</a>
@@ -44,4 +44,4 @@
 
 
     <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-lg-square back-to-top pt-2 text-white"><b><i class="bi bi-arrow-up text-white"></i></b></a>
+    <a href="#" class="btn btn-lg btn-lg-square back-to-top pt-2"><b><i class="bi bi-arrow-up text-white"></i></b></a>
