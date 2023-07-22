@@ -29,7 +29,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-6 text-center text-md-end">
+                <div class="col-md-6 text-center text-md-end text-white">
                     <div class="footer-menu">
                         <a href="{{ route('faqs') }}">FAQs</a>
                         <a href="{{ route('terms-conditions') }}">Terms & Conditions</a>
