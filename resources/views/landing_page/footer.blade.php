@@ -44,4 +44,4 @@
 
 
     <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-lg-square back-to-top pt-2"><i class="bi bi-arrow-up text-white"></i></a>
+    <a href="#" class="btn btn-lg btn-lg-square back-to-top pt-2"><b><i class="bi bi-arrow-up text-white"></i></b></a>
