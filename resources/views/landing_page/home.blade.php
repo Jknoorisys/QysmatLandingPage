@@ -30,7 +30,7 @@
                         <div class="d-flex">
                             <i class="fa fa-cogs fa-2x text-primary-gradient flex-shrink-0 mt-1"></i>
                             <div class="ms-3">
-                                <h2 class="mb-0" data-toggle="counter-up">{!! $installs->page_title !!}</h2>
+                                <h2 class="mb-0" data-toggle="counter-up">{!! $installs->description !!}</h2>
                                 <p class="text-primary-gradient mb-0">Active Install</p>
                             </div>
                         </div>
@@ -39,7 +39,7 @@
                         <div class="d-flex">
                             <i class="fa fa-comments fa-2x text-secondary-gradient flex-shrink-0 mt-1"></i>
                             <div class="ms-3">
-                                <h2 class="mb-0" data-toggle="counter-up">{!! $reviews->page_title !!}</h2>
+                                <h2 class="mb-0" data-toggle="counter-up">{!! $reviews->description !!}</h2>
                                 <p class="text-secondary-gradient mb-0">Clients Reviews</p>
                             </div>
                         </div>
