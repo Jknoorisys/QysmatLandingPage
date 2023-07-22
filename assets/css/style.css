@@ -445,8 +445,8 @@ h6,
     display: flex;
     align-items: center;
     justify-content: center;
-    color: var(--light);
-    border: 1px solid rgba(256, 256, 256, .1);
+    color: #ffffffc9;
+    border: 1px solid rgb(250 246 246 / 22%);
     border-radius: 40px;
     transition: .3s;
 }
