@@ -43,7 +43,7 @@
                     <div class="row g-4">
                         <div class="col-sm-6 col-lg-4 col-6 wow fadeIn" data-wow-delay="0.5s"
                             style="z-index: 100;">
-                            <a href="https://apps.apple.com/us/app/qysmat/id6445908697" class="d-flex bg-primary-gradient rounded py-3 px-4">
+                            <a href="https://apps.apple.com/us/app/qysmat/id6445908697" class="d-flex bg-primary-gradient rounded py-3 px-3">
                                 <i class="fab fa-apple fa-3x text-white flex-shrink-0"></i>
                                 <div class="ms-3 app-store">
                                     <p class="text-white mb-0">Available On</p>
