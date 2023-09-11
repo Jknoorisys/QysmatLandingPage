@@ -19,7 +19,7 @@ Route::get('/', function () {
     $data['reviews'] = DB::table('web_pages')->where('page_name', 'reviews')->first();
 
     $data['content'] = view('landing_page.home', $data);
-    return view('landing_page.main', $data);
+    return view('landing_page.main1', $data);
 })->name('/');
 
 Route::get('privacy-policy', function () {
