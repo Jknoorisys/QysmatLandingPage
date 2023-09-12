@@ -76,7 +76,7 @@
 						<!-- <li class="list-heading">Follow us for update</li> -->
 						<li><a href="{{ strip_tags($facebook->details) }}"><i class="ion-social-facebook"></i></a></li>
 						<li><a href="{{ strip_tags($twitter->details) }}"><i class="ion-social-twitter"></i></a></li>
-						<li><a href="{{ {{ route('/') }} }}"><i class="ion-social-googleplus"></i></a></li>
+						<li><a href="{{ route('/') }}"><i class="ion-social-googleplus"></i></a></li>
 						<li><a href="{{ strip_tags($instagram->details) }}"><i class="ion-social-instagram-outline"></i></a></li>
 						<!-- <li><a href="#"><i class="ion-social-pinterest"></i></a></li> -->
 					</ul>
