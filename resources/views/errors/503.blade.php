@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html lang="en">
 <head>
-	<title>Qysmat - Mobile App</title>
+	<title>Qysmat</title>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta charset="UTF-8">
@@ -14,6 +14,8 @@
 	
 	<link href="assets/css/ionicons.css" rel="stylesheet">
 	
+	<!-- Favicon -->
+	<link href="assets/img/logo.png" rel="icon">
 	
 	<link rel="stylesheet" href="assets/css/jquery.classycountdown.css" />
 		
@@ -74,7 +76,7 @@
 						<!-- <li class="list-heading">Follow us for update</li> -->
 						<li><a href="{{ strip_tags($facebook->details) }}"><i class="ion-social-facebook"></i></a></li>
 						<li><a href="{{ strip_tags($twitter->details) }}"><i class="ion-social-twitter"></i></a></li>
-						<li><a href="{{ strip_tags($linkedin->details) }}"><i class="ion-social-googleplus"></i></a></li>
+						<li><a href="{{ strip_tags($linkedin->details) }}"><i class="ion-social-likedin"></i></a></li>
 						<li><a href="{{ strip_tags($instagram->details) }}"><i class="ion-social-instagram-outline"></i></a></li>
 						<!-- <li><a href="#"><i class="ion-social-pinterest"></i></a></li> -->
 					</ul>
