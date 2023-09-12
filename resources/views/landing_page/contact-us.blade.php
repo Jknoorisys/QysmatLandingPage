@@ -16,6 +16,7 @@
             <div class="col-12 col-sm-8 col-lg-8">
                 <!-- Section Heading-->
                 <div class="section_heading wow fadeInUp pb-5 heading" data-wow-delay="0.2s"
+                <div class="section_heading wow fadeInUp pb-5 heading" data-wow-delay="0.2s"
                     style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
                     <img style="width: 300px; height: auto; padding-bottom: 20px;" src="assets/img/Screenshot_2023-09-11_200248-removebg-preview.png" alt="">
                     <h1>Contact Us</h1>
