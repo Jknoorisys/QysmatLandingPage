@@ -1,41 +1,4 @@
-<style>
-    body {
-        background-color: var(--primary);
-        color: rgb(0, 0, 0);
-        font-family: Arial, sans-serif;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-        margin: 0;
-    }
-
-    .container {
-        background-color: var(--light);
-        border-radius: 10px;
-        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-        padding: 20px;
-        width: 300px;
-        text-align: center;
-    }
-
-    h1 {
-        color: var(--secondary);
-    }
-
-    p {
-        color: var(--dark);
-    }
-
-    a {
-        color: var(--secondary);
-        text-decoration: none;
-    }
-
-    a:hover {
-        text-decoration: underline;
-    }
-</style>
+ 
  <!-- Screenshot Start -->
  <div class="faq_area section_padding_140" id="faq" style="min-height: 5vh;">
     <div class="container">
