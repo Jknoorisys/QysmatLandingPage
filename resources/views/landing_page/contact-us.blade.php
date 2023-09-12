@@ -1,4 +1,11 @@
- 
+ <style>
+     .heading {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+ </style>
  <!-- Screenshot Start -->
  <div class="faq_area section_padding_140" id="faq" style="min-height: 80vh;">
     <div class="container">
@@ -6,7 +13,7 @@
 
             <div class="col-12 col-sm-8 col-lg-8">
                 <!-- Section Heading-->
-                <div class="section_heading wow fadeInUp pb-5" data-wow-delay="0.2s"
+                <div class="section_heading wow fadeInUp pb-5 heading" data-wow-delay="0.2s"
                     style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
                     <img style="width: 300px; height: auto; padding-bottom: 20px;" src="assets/img/Screenshot_2023-09-11_200248-removebg-preview.png" alt="">
                     <h3>Contact  Us</h3>
