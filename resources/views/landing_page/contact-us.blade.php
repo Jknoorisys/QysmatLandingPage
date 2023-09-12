@@ -1,5 +1,5 @@
  <!-- Screenshot Start -->
- <div class="faq_area section_padding_140" id="faq" style="min-height: 5vh;">
+ <div class="faq_area section_padding_140" id="faq" style="min-height: 80vh;">
     <div class="container">
         <div class="row ">
 
