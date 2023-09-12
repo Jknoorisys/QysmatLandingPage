@@ -65,10 +65,16 @@
 						</div>
 					</div>
 					<div class="col-md-6 text-center text-md-end">
-						<div class="footer-menu">
+						{{-- <div class="footer-menu">
 							<a href="{{ route('faqs') }}" class="text-white">FAQs</a> |
 							<a href="{{ route('contact-us') }}" class="text-white">Contact Us</a> |
 							<a href="{{ route('terms-conditions') }}" class="text-white">Terms & Conditions</a> |
+							<a href="{{ route('privacy-policy') }}" class="text-white">Privacy Policy</a>
+						</div> --}}
+						<div class="footer-menu">
+							<a href="#" class="text-white">FAQs</a> |
+							<a href="{{ route('contact-us') }}" class="text-white">Contact Us</a> |
+							<a href="#" class="text-white">Terms & Conditions</a> |
 							<a href="{{ route('privacy-policy') }}" class="text-white">Privacy Policy</a>
 						</div>
 					</div>
