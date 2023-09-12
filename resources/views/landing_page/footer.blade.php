@@ -32,6 +32,7 @@
                 <div class="col-md-6 text-center text-md-end text-white">
                     <div class="footer-menu">
                         <a href="{{ route('faqs') }}" class="text-white">FAQs</a>
+                        <a href="{{ route('contact-us') }}" class="text-white">Contact Us</a>
                         <a href="{{ route('terms-conditions') }}" class="text-white">Terms & Conditions</a>
                         <a href="{{ route('privacy-policy') }}" class="text-white">Privacy Policy</a>
                     </div>
