@@ -36,7 +36,7 @@
 <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="51">
     <div class="container-xxl bg-white p-0">
         
-        {{-- @include('landing_page.header') --}}
+        @include('landing_page.header')
 
         <?php echo (isset($content) && !empty($content)) ? $content : "" ?>        
 
