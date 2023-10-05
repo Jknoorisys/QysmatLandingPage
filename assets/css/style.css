@@ -588,10 +588,13 @@ div.cutomeHeight{
         margin-top: -582px;
     }
     .hero-header {
-        padding: 1rem 0 10rem 0;
+        padding: 0rem 0 10rem 0;
     }
     div.cutomeHeight{
         height: auto !important;
+    }
+    .reverse-row {
+        flex-direction: column-reverse;
     }
 }
 @media only screen and (max-device-width: 991.98px) {
