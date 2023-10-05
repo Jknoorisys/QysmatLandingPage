@@ -45,7 +45,7 @@
                     <div class="row g-4">
                         <div class="col-sm-6 col-lg-4 col-6 wow fadeIn" data-wow-delay="0.5s"
                             style="z-index: 100;">
-                            <a href="https://apps.apple.com/us/app/umrahplus/id1640429513" class="d-flex bg-primary-gradient rounded py-3 px-3">
+                            <a href="https://apps.apple.com/gb/app/qysmat-the-new-way-to-marry/id6445908697" class="d-flex bg-primary-gradient rounded py-3 px-3">
                                 <i class="fab fa-apple fa-3x text-white flex-shrink-0"></i>
                                 <div class="ms-3 app-store">
                                     <p class="text-white mb-0">Available On</p>
@@ -55,7 +55,7 @@
                         </div>
                         <div class="col-sm-6 col-lg-4 col-6 wow fadeIn" data-wow-delay="0.7s"
                             style="z-index: 100;">
-                            <a href="https://play.google.com/store/apps/details?id=com.app.umacustomer" class="d-flex bg-secondary-gradient rounded py-3 px-3">
+                            <a href="https://play.google.com/store/apps/details?id=com.app.qysmat" class="d-flex bg-secondary-gradient rounded py-3 px-3">
                                 <i class="fab fa-android fa-3x text-white flex-shrink-0"></i>
                                 <div class="ms-3 google-play">
                                     <p class="text-white mb-0">Available On</p>

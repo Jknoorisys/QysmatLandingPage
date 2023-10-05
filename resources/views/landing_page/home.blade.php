@@ -26,7 +26,7 @@
                 <h1 class="mb-4">FIND YOUR QYSMAT
                 </h1>
                 </p>
-                <a href="https://apps.apple.com/us/app/umrahplus/id1640429513" class="btn btn-primary-gradient py-sm-3 px-4 px-sm-5 rounded-pill mt-3">Download
+                <a href="https://apps.apple.com/gb/app/qysmat-the-new-way-to-marry/id6445908697" class="btn btn-primary-gradient py-sm-3 px-4 px-sm-5 rounded-pill mt-3">Download
                     Now</a>
             </div>
         </div>
@@ -196,7 +196,7 @@
                 </p>
                 <p class="mb-4 p-tag">You can also refer profiles that you feel may be a suitable match for someone you know.
                 </p>
-                <a href="https://apps.apple.com/us/app/umrahplus/id1640429513" class="btn btn-primary-gradient py-sm-3 px-4 px-sm-5 rounded-pill mt-3">Download
+                <a href="https://apps.apple.com/gb/app/qysmat-the-new-way-to-marry/id6445908697" class="btn btn-primary-gradient py-sm-3 px-4 px-sm-5 rounded-pill mt-3">Download
                     Now</a>
             </div>
             <div class="col-lg-4 d-flex justify-content-center">
