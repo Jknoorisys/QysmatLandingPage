@@ -14,17 +14,17 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-// Route::get('/', function () {
-//     return view('landing_page.comming-soon');
-// })->name('/');
-
 Route::get('/', function () {
-    $data['installs'] = DB::table('web_pages')->where('page_name', 'installs')->first();
-    $data['reviews'] = DB::table('web_pages')->where('page_name', 'reviews')->first();
-
-    $data['content'] = view('landing_page.home', $data);
-    return view('landing_page.main', $data);
+    return view('landing_page.comming-soon');
 })->name('/');
+
+// Route::get('/', function () {
+//     $data['installs'] = DB::table('web_pages')->where('page_name', 'installs')->first();
+//     $data['reviews'] = DB::table('web_pages')->where('page_name', 'reviews')->first();
+
+//     $data['content'] = view('landing_page.home', $data);
+//     return view('landing_page.main', $data);
+// })->name('/');
 
 Route::get('privacy-policy', function () {
     $data['page'] = DB::table('web_pages')->where('page_name', '=', 'privacy_policy')->first();
