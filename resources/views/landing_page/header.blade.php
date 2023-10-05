@@ -6,18 +6,22 @@
 </div>
 <!-- Spinner End -->
 
-<!-- Navbar & Hero Start -->
-<div class="container-xxl position-relative p-0" id="home">
+
+ <!-- Navbar & Hero Start -->
+ <div class="container-xxl position-relative p-0" id="home">
     <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
-        <a href="/" class="navbar-brand pt-2" style="z-index: 100;  padding: 0 10px 0 10px; border-bottom-left-radius: 6px; border-bottom-right-radius: 6px;">
+        <a href="" class="navbar-brand pt-2"
+            style="z-index: 100;  padding: 0 10px 0 10px; border-bottom-left-radius: 6px; border-bottom-right-radius: 6px;">
+
             <img src="assets/img/qysmat-logo.png" alt="Logo">
         </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" style="color: #8F7C5C;">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+            style="color: #8F7C5C;">
             <span class="fa fa-bars"></span>
         </button>
     </nav>
 
-    <div class="container-xxl bg-primary hero-header">
+    <div class="container-xxl hero-header">
 
         <video autoplay muted loop id="myVideo">
             <source src="assets/img/Qysmat-desktop.mp4" type="video/mp4">
@@ -36,7 +40,8 @@
                     </h2>
                     <p class="text-white pb-3 animated slideInDown" style="font-size: 25px;text-shadow: 3px 4px 7px rgba(15, 12, 1, 0.8)">First FREE app for Parents to help Single Muslims find marriage & search together
                     </p>
-                  
+                    <!-- <a href="" class="btn btn-primary-gradient py-sm-3 px-4 px-sm-5 rounded-pill me-3 animated slideInLeft">Read More</a>
+                    <a href="" class="btn btn-secondary-gradient py-sm-3 px-4 px-sm-5 rounded-pill animated slideInRight">Contact Us</a> -->
                     <div class="row g-4">
                         <div class="col-sm-6 col-lg-4 col-6 wow fadeIn" data-wow-delay="0.5s"
                             style="z-index: 100;">
