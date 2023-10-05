@@ -6,12 +6,12 @@
 
             <div class="col-lg-5">
                 <div class="owl-carousel screenshot-carousel">
-                    <img class="img-fluid" src="img/Img 1.png" alt="">
-                    <img class="img-fluid" src="img/Img 2.png" alt="">
-                    <img class="img-fluid" src="img/Img 3.png" alt="">
-                    <img class="img-fluid" src="img/Img 4.png" alt="">
+                    <img class="img-fluid" src="assets/img/Img 1.png" alt="">
+                    <img class="img-fluid" src="assets/img/Img 2.png" alt="">
+                    <img class="img-fluid" src="assets/img/Img 3.png" alt="">
+                    <img class="img-fluid" src="assets/img/Img 4.png" alt="">
                 </div>
-                <!-- <img class="img-fluid wow fadeInUp" data-wow-delay="0.5s" src="img/about (1).png"> -->
+                <!-- <img class="img-fluid wow fadeInUp" data-wow-delay="0.5s" src="assets/img/about (1).png"> -->
             </div>
             <div class="col-lg-7 wow fadeInUp" data-wow-delay="0.1s">
                 <!-- <h5 class="text-primary-gradient fw-medium">About App</h5> -->
@@ -51,7 +51,7 @@
                 </p>
             </div>
             <div class="col-lg-5">
-                <img class="img-fluid wow fadeInUp" data-wow-delay="0.5s" src="img/IMG-5__1_-removebg-preview.png">
+                <img class="img-fluid wow fadeInUp" data-wow-delay="0.5s" src="assets/img/IMG-5__1_-removebg-preview.png">
             </div>
         </div>
     </div>
@@ -65,7 +65,7 @@
     <div class="row g-5 align-items-center reverse-row">
 
         <div class="col-lg-5 d-flex justify-content-center">
-            <img class="img-fluid wow fadeInUp" data-wow-delay="0.5s" src="img/img 23.png">
+            <img class="img-fluid wow fadeInUp" data-wow-delay="0.5s" src="assets/img/img 23.png">
         </div>
         <div class="col-lg-7 wow fadeInUp" data-wow-delay="0.1s">
             <!-- <h5 class="text-primary-gradient fw-medium">About App</h5> -->
@@ -108,7 +108,7 @@
             </div>
             <div class="col-lg-4 d-flex justify-content-center">
                 <div class="owl-carousel screenshot-carousel">
-                    <img class="img-fluid" src="img/Img 7.png" alt="">
+                    <img class="img-fluid" src="assets/img/Img 7.png" alt="">
 
                 </div>
             </div>
@@ -123,7 +123,7 @@
 
         <div class="col-lg-5 d-flex justify-content-center">
             <div class="owl-carousel screenshot-carousel">
-                <img class="img-fluid" src="img/Email_OTP (1).png" alt="">
+                <img class="img-fluid" src="assets/img/Email_OTP (1).png" alt="">
 
             </div>
         </div>
@@ -156,7 +156,7 @@
             </div>
             <div class="col-lg-4 d-flex justify-content-center">
                 <div class="owl-carousel screenshot-carousel">
-                    <img class="img-fluid" src="img/Img 8.png" alt="">
+                    <img class="img-fluid" src="assets/img/Img 8.png" alt="">
 
                 </div>
             </div>
@@ -172,7 +172,7 @@
         <div class="row g-5 align-items-center reverse-row">
             <div class="col-lg-4 d-flex justify-content-center justify-content-lg-end wow fadeInUp"
                 data-wow-delay="0.3s">
-                <img src="img/Refer.png" alt="">
+                <img src="assets/img/Refer.png" alt="">
             </div>
             <div class="col-lg-8 wow fadeInUp" data-wow-delay="0.1s">
                 <!-- <h5 class="text-primary-gradient fw-medium">Screenshot</h5> -->
@@ -200,7 +200,7 @@
                     Now</a>
             </div>
             <div class="col-lg-4 d-flex justify-content-center">
-                <img src="img/Group 12673.png" alt="">
+                <img src="assets/img/Group 12673.png" alt="">
             </div>
         </div>
     </div>
