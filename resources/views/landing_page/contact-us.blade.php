@@ -116,7 +116,7 @@
     }
 </style>
  <!-- Screenshot Start -->
- <div class="faq_area section_padding_140" id="faq" style="min-height: 5vh;">
+ <div class="" id="faq" style="">
     <div class="container">
         <div class="row ">
 
