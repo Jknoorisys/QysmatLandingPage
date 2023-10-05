@@ -117,7 +117,7 @@
 </style>
 
 @include('landing_page.navbar')
-<div class="faq_area section_padding_140" id="faq" style="min-height: 5vh;">
+<div class="faq_area section_padding_140" id="faq">
     <div class="container">
         <div class="row ">
             <div class="col-12 col-sm-8 col-lg-6">
