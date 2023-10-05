@@ -1,7 +1,7 @@
 <style>
     .section_padding_140 {
         padding-top: 110px;
-        padding-bottom: 110px;
+        /* padding-bottom: 110px; */
     }
 
     .faq_area {
@@ -116,7 +116,9 @@
     }
 </style>
 
-<div class="faq_area" id="faq">
+@include('landing_page.navbar')
+
+<div class="faq_area section_padding_140" id="faq">
     <div class="container">
         <div class="row ">
 

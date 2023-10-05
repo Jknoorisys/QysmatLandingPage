@@ -1,7 +1,7 @@
 <style>
     .section_padding_140 {
         padding-top: 110px;
-        padding-bottom: 110px;
+        /* padding-bottom: 110px; */
     }
 
     .faq_area {
@@ -116,15 +116,15 @@
     }
 </style>
 
+@include('landing_page.navbar')
+
 <!-- Screenshot Start -->
-<div class="faq_area" id="faq">
+<div class="faq_area section_padding_140" id="faq">
     <div class="container">
         <div class="row ">
-
             <div class="col-12 col-sm-8 col-lg-6">
                 <!-- Section Heading-->
-                <div class="section_heading wow fadeInUp mb-4" data-wow-delay="0.2s"
-                    style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+                <div class="section_heading wow fadeInUp mb-4" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
                     <h3>{!! $page->page_title !!}</h3>
                     <!-- <p>Appland is completely creative, lightweight, clean &amp; super responsive app landing page.</p> -->
                     <div class="line"></div>
@@ -133,9 +133,10 @@
         </div>
         <div class="row justify-content-center">
             <!-- FAQ Area-->
-            <div class="col-12 col-sm-10 col-lg-12">
+            <div class="col-12 col-sm-10 col-lg-12" style="margin-left: 1rem;">
                 <div class="content">
                     {!! $page->description !!}
+                </div>
             </div>
         </div>
     </div>

@@ -116,7 +116,8 @@
     }
 </style>
 
-<div class="faq_area" id="faq">
+@include('landing_page.navbar')
+<div class="faq_area section_padding_140" id="faq" style="min-height: 5vh;">
     <div class="container">
         <div class="row ">
             <div class="col-12 col-sm-8 col-lg-6">
@@ -130,7 +131,7 @@
         </div>
         <div class="row justify-content-center">
             <!-- FAQ Area-->
-            <div class="col-12 col-sm-10 col-lg-12">
+            <div class="col-12 col-sm-10 col-lg-12" style="margin-left: 1rem;">
                 <div class="accordion faq-accordian" id="faqAccordion">
                     @foreach ($faqs as $faq)
                         <div class="card border-0 wow fadeInUp" data-wow-delay="0.2s"

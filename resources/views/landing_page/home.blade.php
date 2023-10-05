@@ -1,51 +1,32 @@
-<!-- About Start -->
-<div class="container py-5" id="about">
+@include('landing_page.header')
+ <!-- About Start -->
+ <div class="container py-5" id="about">
     <div class="container py-5 px-lg-5">
         <div class="row g-5 align-items-center">
 
             <div class="col-lg-5">
-                <img class="img-fluid wow fadeInUp" data-wow-delay="0.5s" src="assets/img/about (1).png">
+                <div class="owl-carousel screenshot-carousel">
+                    <img class="img-fluid" src="assets/img/Img 1.png" alt="">
+                    <img class="img-fluid" src="assets/img/Img 2.png" alt="">
+                    <img class="img-fluid" src="assets/img/Img 3.png" alt="">
+                    <img class="img-fluid" src="assets/img/Img 4.png" alt="">
+                </div>
+                <!-- <img class="img-fluid wow fadeInUp" data-wow-delay="0.5s" src="assets/img/about (1).png"> -->
             </div>
             <div class="col-lg-7 wow fadeInUp" data-wow-delay="0.1s">
                 <!-- <h5 class="text-primary-gradient fw-medium">About App</h5> -->
                 <h1 class="mb-4">Start your journey
                 </h1>
-                <p><i class="fa fa-check text-primary-gradient me-3"></i>Be part of the new online matchmaking
-                    revolution 
+                <h1 class="mb-4">Be part of the new online matchmaking revolution
+                </h1>
+                <h1 class="mb-4">Join us in the movement that will change the future of how Single Muslims meet
+                </h1>
+                <h1 class="mb-4">Its time to break the mould and discover your path
+                </h1>
+                <h1 class="mb-4">FIND YOUR QYSMAT
+                </h1>
                 </p>
-                <p><i class="fa fa-check text-primary-gradient me-3"></i>Join us in the movement that will
-                    change the future of how Single Muslims meet
-
-                </p>
-                <p><i class="fa fa-check text-primary-gradient me-3"></i>Its time to break the mould and
-                    discover your path
-
-                </p>
-                <p><i class="fa fa-check text-primary-gradient me-3"></i><b>FIND YOUR QYSMAT</b> 
-
-
-                </p>
-                <div class="row g-4 mb-4">
-                    <div class="col-sm-6 wow fadeIn" data-wow-delay="0.5s">
-                        <div class="d-flex">
-                            <i class="fa fa-cogs fa-2x text-primary-gradient flex-shrink-0 mt-1"></i>
-                            <div class="ms-3">
-                                <h2 class="mb-0" data-toggle="counter-up">{!! $installs->description !!}</h2>
-                                <p class="text-primary-gradient mb-0">Active Install</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 wow fadeIn" data-wow-delay="0.7s">
-                        <div class="d-flex">
-                            <i class="fa fa-comments fa-2x text-secondary-gradient flex-shrink-0 mt-1"></i>
-                            <div class="ms-3">
-                                <h2 class="mb-0" data-toggle="counter-up">{!! $reviews->description !!}</h2>
-                                <p class="text-secondary-gradient mb-0">Clients Reviews</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <a href="https://play.google.com/store/apps/details?id=com.app.qysmat" class="btn btn-primary-gradient py-sm-3 px-4 px-sm-5 rounded-pill mt-3">Download
+                <a href="https://apps.apple.com/us/app/umrahplus/id1640429513" class="btn btn-primary-gradient py-sm-3 px-4 px-sm-5 rounded-pill mt-3">Download
                     Now</a>
             </div>
         </div>
@@ -60,18 +41,17 @@
                 <!-- <h5 class="text-primary-gradient fw-medium">Screenshot</h5> -->
                 <h1 class="mb-4">The First App of Its Kind
                 </h1>
-                <p class="mb-4">At Qysmat, we understand the stresses, anxiety and distance that can be created
+                <p class="mb-4 p-tag">At Qysmat, we understand the stresses, anxiety and distance that can be created
                     between those who are single and their families.
                 </p>
-                <p class="mb-4">Our aim is to remove these challenges and barriers created within families and
+                <p class="mb-4 p-tag">Our aim is to remove these challenges and barriers created within families and
                     have everyone working together to ultimately achieve the same goal.
                 </p>
-                <p class="mb-4">Therefore, to use Qysmat BOTH parties must download the app and be verified.
+                <p class="mb-4 p-tag">Therefore, to use Qysmat BOTH parties must download the app and be verified.
                 </p>
-
             </div>
             <div class="col-lg-5">
-                <img class="img-fluid wow fadeInUp" data-wow-delay="0.5s" src="assets/img/singleton.png">
+                <img class="img-fluid wow fadeInUp" data-wow-delay="0.5s" src="assets/img/IMG-5__1_-removebg-preview.png">
             </div>
         </div>
     </div>
@@ -85,24 +65,23 @@
     <div class="row g-5 align-items-center">
 
         <div class="col-lg-5 d-flex justify-content-center">
-            <div class="owl-carousel screenshot-carousel">
-                <img class="img-fluid" src="assets/img/screen-1.png" alt="">
-
-            </div>
+            <img class="img-fluid wow fadeInUp" data-wow-delay="0.5s" src="assets/img/img 23.png">
         </div>
         <div class="col-lg-7 wow fadeInUp" data-wow-delay="0.1s">
             <!-- <h5 class="text-primary-gradient fw-medium">About App</h5> -->
             <h1 class="mb-4">Our Mission
 
             </h1>
-            <p class="mb-4">The concept of Qysmat allows only one conversation at a time between Single
+            <p class="mb-4 p-tag">The concept of Qysmat allows only one conversation at a time between Single
                 Muslims but no limit for the number of conversations between Parents.
             </p>
-            <p class="mb-4">This may appear strange at first but our intention is to encourage Single
+            <p class="mb-4 p-tag">This may appear strange at first but our intention is to encourage Single
                 Muslims to focus their attention and effort towards one person.
             </p>
-            <p class="mb-4"> Multiple conversations can lead to lack of focus, initiating dialogue, delayed
+            <p class="mb-4 p-tag"> Multiple conversations can lead to lack of focus, initiating dialogue, delayed
                 responses and inappropriate behaviour. 
+            </p>
+            <p class="mb-4 p-tag"> For Single Muslims, if your conversation comes to an end, you will regain full access to all the features and can continue your search.
             </p>
 
         </div>
@@ -117,11 +96,11 @@
                 <!-- <h5 class="text-primary-gradient fw-medium">Screenshot</h5> -->
                 <h1 class="mb-4">Safety
                 </h1>
-                <p class="mb-4">Single Muslims and their Parents searching together, helps provide a safer
+                <p class="mb-4 p-tag">Single Muslims and their Parents searching together, helps provide a safer
                     place for users.
 
                 </p>
-                <p class="mb-4">Our app is not designed for those who aren’t quite ready for marriage and
+                <p class="mb-4 p-tag">Our app is not designed for those who aren’t quite ready for marriage and
                     are only looking to date. 
 
                 </p>
@@ -129,7 +108,7 @@
             </div>
             <div class="col-lg-4 d-flex justify-content-center">
                 <div class="owl-carousel screenshot-carousel">
-                    <img class="img-fluid" src="assets/img/parent-Profile (1).png" alt="">
+                    <img class="img-fluid" src="assets/img/Img 7.png" alt="">
 
                 </div>
             </div>
@@ -153,8 +132,8 @@
             <h1 class="mb-4"> Enhanced Security
 
             </h1>
-            <p class="mb-4">With our 4-Step verification process including mobile + email authentication
-                as well as ID (passport, national identity card or driving license) + selfie
+            <p class="mb-4 p-tag">With our 4-Step verification process including mobile + email authentication
+                as well as ID (passport) + selfie
                 verification, you can be reassured that safety is a priority at Qysmat.
 
             </p>
@@ -174,7 +153,7 @@
                 <h1 class="mb-4">Free Audio & Video Calls
 
                 </h1>
-                <p class="mb-4">In addition, we have provided audio and video call capabilities so you
+                <p class="mb-4 p-tag">In addition, we have provided audio and video call capabilities so you
                     need not share your personal telephone number until you feel comfortable of course.
 
 
@@ -183,7 +162,7 @@
             </div>
             <div class="col-lg-4 d-flex justify-content-center">
                 <div class="owl-carousel screenshot-carousel">
-                    <img class="img-fluid" src="assets/img/parent-Chat (1).png" alt="">
+                    <img class="img-fluid" src="assets/img/Img 8.png" alt="">
 
                 </div>
             </div>
@@ -192,39 +171,44 @@
 </div>
 <!-- Audio -->
 
+
 <!-- Screenshot Start -->
 <div class="container-xxl py-5">
     <div class="container py-5 px-lg-5">
         <div class="row g-5 align-items-center">
             <div class="col-lg-4 d-flex justify-content-center justify-content-lg-end wow fadeInUp"
                 data-wow-delay="0.3s">
-                <div class="owl-carousel screenshot-carousel">
-                    <img class="img-fluid" src="assets/img/screen-1.png" alt="">
-                    <img class="img-fluid" src="assets/img/1_Splash_screen_3.png" alt="">
-                    <img class="img-fluid" src="assets/img/screen-3.png" alt="">
-                    <img class="img-fluid" src="assets/img/screen-4.png" alt="">
-                </div>
+                <img src="assets/img/Refer.png" alt="">
             </div>
             <div class="col-lg-8 wow fadeInUp" data-wow-delay="0.1s">
-                <h5 class="text-primary-gradient fw-medium">Screenshot</h5>
-                <h1 class="mb-4">How It Works</h1>
-                <p class="mb-4">Diam dolor diam ipsum et tempor sit. Aliqu diam amet diam et eos labore.
-                    Clita
-                    erat ipsum et lorem et sit, sed stet no labore lorem sit clita duo justo eirmod
-                    magna dolore
-                    erat amet</p>
-                <p><i class="fa fa-check text-primary-gradient me-3"></i>Diam dolor diam ipsum et tempor
-                    sit</p>
-                <p><i class="fa fa-check text-primary-gradient me-3"></i>Aliqu diam amet diam et eos
-                    labore</p>
-                <p class="mb-4"><i class="fa fa-check text-primary-gradient me-3"></i>Clita erat ipsum
-                    et lorem
-                    et sit</p>
-                <a href="https://play.google.com/store/apps/details?id=com.app.qysmat" class="btn btn-primary-gradient py-sm-3 px-4 px-sm-5 rounded-pill mt-3">Download
-                    Now</a>
+                <!-- <h5 class="text-primary-gradient fw-medium">Screenshot</h5> -->
+                <h1 class="mb-4">INSTANT MATCH REQUEST
+                </h1>
+                <p class="mb-4 p-tag">Increase your presence and be seen amongst the crowds with instant match requests, allowing you to be viewed instantly by someone you like rather than waiting in a queue.</p>
             </div>
 
         </div>
     </div>
 </div>
 <!-- Screenshot End -->
+<div class="container-xxl py-5">
+    <div class="container py-5 px-lg-5">
+        <div class="row g-5 align-items-center">
+            <div class="col-lg-8 wow fadeInUp" data-wow-delay="0.1s">
+                <!-- <h5 class="text-primary-gradient fw-medium">Screenshot</h5> -->
+                <h1 class="mb-4">REFER PROFILES
+                </h1>
+                <p class="mb-4 p-tag">If your conversation is going well and you wish to move forward, you can send invites for either your Parents or Single Muslims to start talking to each other. (For example, two parents are talking to each other and they wish for their children to start talking to each other.)
+                </p>
+                <p class="mb-4 p-tag">You can also refer profiles that you feel may be a suitable match for someone you know.
+                </p>
+                <a href="https://apps.apple.com/us/app/umrahplus/id1640429513" class="btn btn-primary-gradient py-sm-3 px-4 px-sm-5 rounded-pill mt-3">Download
+                    Now</a>
+
+            </div>
+            <div class="col-lg-4 d-flex justify-content-center">
+                <img src="assets/img/Group 12673.png" alt="">
+            </div>
+        </div>
+    </div>
+</div>
